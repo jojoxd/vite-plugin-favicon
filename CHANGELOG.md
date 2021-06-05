@@ -1,3 +1,15 @@
+# [3.0.0](https://github.com/jojoxd/vite-plugin-favicon/compare/v2.0.0...v3.0.0) (2021-06-05)
+
+
+### Bug Fixes
+
+* **paths:** generated html tags now have a correct path ([f8f2aae](https://github.com/jojoxd/vite-plugin-favicon/commit/f8f2aaee29dcf200da582da24ec5cbd75132a3fd))
+
+
+### BREAKING CHANGES
+
+* **paths:** full refactor
+
 # [2.0.0](https://github.com/jojoxd/vite-plugin-favicon/compare/v1.0.8...v2.0.0) (2021-06-05)
 
 
