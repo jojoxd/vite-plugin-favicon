@@ -66,14 +66,7 @@
 		"no-unused-vars": [
 			"warn"
 		],
-		"@typescript-eslint/ban-ts-comment": "warn",
-		"import/extensions": [
-			"warn",
-			"ignorePackages",
-			{
-				"vue": "always"
-			}
-		]
+		"@typescript-eslint/ban-ts-comment": "warn"
 	},
 	"env": {
 		"node": true,

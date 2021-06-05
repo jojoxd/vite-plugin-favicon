@@ -1,5 +1,5 @@
 {
-	"name": "vite-plugin-favicon",
+	"name": "@jojoxd/vite-plugin-favicon",
 	"version": "1.0.8",
 	"description": "Create and manage favicons for vite bundles, mostily compatible with the config of favicons-webpack-plugin",
 	"type": "module",
@@ -31,7 +31,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/josh-hemphill/vite-plugin-favicon.git"
+		"url": "git+https://github.com/jojoxd/vite-plugin-favicon.git"
 	},
 	"keywords": [
 		"vite-plugin",
@@ -42,9 +42,9 @@
 	],
 	"maintainers": [
 		{
-			"name": "Joshua Hemphill",
-			"email": "jhemphill@tecnicocorp.com",
-			"url": "https://joshuahemphill.com"
+			"name": "Joey Vos",
+			"email": "contact@jojoxd.nl",
+			"url": "https://jojoxd.nl"
 		}
 	],
 	"author": {
