@@ -1,3 +1,7 @@
+# [2.0.0](https://github.com/jojoxd/vite-plugin-favicon/compare/v1.0.8...v2.0.0) (2021-06-05)
+
+
+
 ## [1.0.8](https://github.com/josh-hemphill/vite-plugin-favicon/compare/v1.0.7...v1.0.8) (2021-05-13)
 
 
