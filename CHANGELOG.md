@@ -1,3 +1,10 @@
+# [3.1.0](https://github.com/jojoxd/vite-plugin-favicon/compare/v3.0.0...v3.1.0) (2021-06-07)
+
+
+### Features
+
+* **maskable:** Added maskable option to transform Manifest.json ([154b0ba](https://github.com/jojoxd/vite-plugin-favicon/commit/154b0ba00adb7d21cfefacaa561f8ba091a9b265))
+
 # [3.0.0](https://github.com/jojoxd/vite-plugin-favicon/compare/v2.0.0...v3.0.0) (2021-06-05)
 
 
