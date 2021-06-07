@@ -1,5 +1,5 @@
 import { FaviconOptions } from 'favicons';
-import { ViteFaviconsPluginOptions } from './index.js';
+import { ViteFaviconsPluginOptions } from './index';
 
 export function mergeFaviconConfig (options: ViteFaviconsPluginOptions): Partial<FaviconOptions>
 {

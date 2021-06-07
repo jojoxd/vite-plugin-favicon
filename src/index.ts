@@ -21,6 +21,7 @@ function ViteFaviconsPlugin (options: FaviconsPluginArgs = {}): Plugin
 	lOptions.projectRoot ??= process.cwd();
 	lOptions.path ??= 'assets/';
 	lOptions.favicons ??= {};
+	lOptions.maskable ??= false;
 
 	// This option is used to regenerate the Output HTML
 	lOptions.favicons.path = FaviconExportBuilder.ROOT_PATH;

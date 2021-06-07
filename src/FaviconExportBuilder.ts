@@ -81,8 +81,30 @@ export class FaviconExportBuilder
 			return node;
 		});
 
-		// rewrite files to correct uri's
-		for(const [assetId, source] of files.entries()) {
+		// rewrite files to correct uri's,
+		// add maskable property
+		// eslint-disable-next-line prefer-const
+		for(let [assetId, source] of files.entries()) {
+
+			console.log('=====>', assetId, ctx.getFileName(assetId));
+			if(this.options.maskable && ctx.getFileName(assetId) === 'manifest.json') {
+				const manifest = JSON.parse(source);
+
+				console.log(manifest);
+
+				if(manifest) {
+					if(typeof this.options.maskable === 'function') {
+						this.options.maskable(manifest);
+					} else {
+						for(const icon of manifest.icons) {
+							icon.purpose = this.options.maskable;
+						}
+					}
+				}
+
+				source = JSON.stringify(manifest, null, 4);
+			}
+
 			ctx.setAssetSource(assetId, source.replaceAll(FaviconExportBuilder.ROOT_PATH + '/', `/${this.root}`));
 		}
 

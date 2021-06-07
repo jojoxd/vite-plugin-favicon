@@ -30,4 +30,12 @@ export interface ViteFaviconsPluginOptions
 	 *  @default 'assets/'
 	 */
 	path?: string;
+
+	/**
+	 * Generate Manifest with maskable?
+	 * @default false
+	 */
+	maskable?: ManifestTransformer | false | 'maskable' | 'any maskable';
 }
+
+type ManifestTransformer = (manifest: any) => void;
